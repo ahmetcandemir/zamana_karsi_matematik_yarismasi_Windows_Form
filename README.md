@@ -28,10 +28,10 @@ Soruları 30 saniye içinde yapmadığınız takdirde karşımıza bu uyarı ekr
 * Projemi yaparken ***Windows Form*** yazılım dilini kullandım.</br>
 * Kodları yazabilmek için ***Microsoft Visual Studio*** uygulaması kullandım.</br>
 </br>
- **Kütüphaneler**</br>
+
+ ### Kütüphaneler 
 Öncelikle projemi yaparken kafamda tasarladığım bu pencere ekranı için bana gerekli olan data, int, çizim, yazı kutucukları, değişkenler, süre ve zaman gibi parametreleri için kullanılması gereken kütüphaneleri yazmakla işe koyuldum. </br>
 </br>
-
 ***using System; </br>
 using System.Collections.Generic; </br>
 using System.ComponentModel; </br>
@@ -41,13 +41,12 @@ using System.Linq; </br>
 using System.Text; </br>
 using System.Threading.Tasks; </br>
 using System.Windows.Forms;*** </br> 
-
 </br>
 Bu kod parçacığı, Windows Forms uygulamasının C# dilindeki başlık (header) dosyalarını içerir. İlgili namespace'leri ve temel sınıfları içe aktarmak için kullanılır. </br>
 Bu using ifadeleri, ilgili namespace'lerdeki sınıfları doğrudan kullanmanıza olanak tanır ve kodunuzda daha kısa ve daha okunabilir bir sözdizimi sağlar. </br>
 </br>
 
- **Random Sayılar**</br>
+ ### Random Sayılar
 Projemizde olan 4 işlemi yapabilmek için sayılara ihtiyacımız var. Bu sayıları uygulamamız bize verirken rastgele vermesi gerekir. Rastgele sayıları bize vermek için aşağıdaki kod satırını yazdım. </br>
 </br>
 ***Random randomizer = new Random();***</br>
@@ -55,10 +54,9 @@ Projemizde olan 4 işlemi yapabilmek için sayılara ihtiyacımız var. Bu sayı
 Bu kod satırının ana mantığı; "Random" nesnesi olan "randomizer", rastgele sayılar oluşturabilmek için kullandım.</br>
 </br>
 
- **Sayıların Saklanması**</br>
+ ### Sayıların Saklanması
 Projede olan 4 temel işlemi (Toplama, Çıkarma, Çarpma ve Bölme) için sayıları bir önceki maddeden aldık. Ancak bu sayıların saklanıp verilerde durması gerekir ve bu yüzden her bir işlem için ayrı değişkenler atıyarak bunu sağlamış oldum. Kodlar aşağıdaki gibidir. </br>
 </br>
-
 ***//Bu girişler, toplama sorunu için sayıları saklayacaktır.</br>
 int addend1;</br>
 int addend2;</br>
@@ -75,10 +73,12 @@ int multiplier;</br>
 int dividend;</br>
 int divisor;***</br>
 </br>
- **Kala Süreyi Takip Etme**</br>
+
+ ### Kala Süreyi Takip Etme
  Projemdeki oyunda süre olarak 30 saniye gibi bir kısıtlama var. Bu süre için ayrı br değişken atayıp kalan süreyi takip eden bir değer kullandım.</br>
 </br>
 ***// Bu int, kalan süreyi takip edecektir.</br>
 int timeLeft;***</br>
 </br>
 
+### Sınavı Başlatır 
