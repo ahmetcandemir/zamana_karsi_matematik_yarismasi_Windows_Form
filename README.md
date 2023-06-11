@@ -1,9 +1,7 @@
 # WINDOWS FORM İLE ZAMANA KARŞI MATEMATİK YARIŞMASI
-## Proje İçeriği
-Matematikte olan temel 4 işlemi (Toplama, Çıkarma, Çarpma, Bölme) 30 saniye süre ile rastgale sayılar vererek yapmaya çalışıyoruz. </br>
-**Bu projemin kodlama dili ise Windows Form'dur.**
-- Projeyi çalıştırdığımızda karşımıza çıkacak olan pencerede 4 işlem yer alacaktır.
-- **START GAME** butonuna basarak matematik yarışmamızı başlatıyoruz.
-- 30 saniye süremiz başlayacaktır.
-- İşlemleri yapacağımız sayılar rastgele verilecektir.
-- Tüm işlemleri doğru yaparsanız doğru olduğuna dair bir mesaj veyahut yanlış olursa yanlış olduğuna dair bir mesaj alacaksınız.
+## İçindekiler
+1.[Projenin Amacı]()</br>
+2.[Projenin Videosu]()</br>
+3.[Projeden Görseller]()</br>
+4.[Projenin Yapım Aşamaları ve Kodlar]</br>
+
