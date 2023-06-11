@@ -23,3 +23,6 @@ Tüm sorulara doğru yanıtlar verildiği zaman karşımıza bu şekilde bu uyar
 ### Görsel 3
 ![ProjeGörsel3](https://github.com/ahmetcandemir/zamana_karsi_matematik_yarismasi_Windows_Form/assets/103899051/0cb9a18d-551c-4a9b-8651-9e4a1cf0afc9) </br>
 Soruları 30 saniye içinde yapmadığınız takdirde karşımıza bu uyarı ekranı çıkacaktır. Sadece 30 saniye sürede yapmadığımız için değil aynı zamanda tüm sorulara doğru cevap verene kadar süre akmaya devam eder ve süre bittiğinde gene karşılaşacağımız bilgi kutucuğu bu şekildedir. </br>
+</br>
+## Projenin Yapım Aşamaları ve Kodlar
+Projemi yaparken ***Windows Form*** yazılım dilini kullandım. Öncelikle bu yazılım dilinden biraz bahsetmek isterim. </br>
