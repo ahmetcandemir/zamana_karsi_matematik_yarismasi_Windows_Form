@@ -30,19 +30,16 @@ Soruları 30 saniye içinde yapmadığınız takdirde karşımıza bu uyarı ekr
 </br>
 Öncelikle projemi yaparken kafamda tasarladığım bu pencere ekranı için bana gerekli olan data, int, çizim, yazı kutucukları, değişkenler, süre ve zaman gibi parametreleri için kullanılması gerekn kütüphaneleri yazmakla işe koyuldum. </br>
 </br>
-```C#
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
-```
-
+***using System; </br>
+using System.Collections.Generic; </br>
+using System.ComponentModel; </br>
+using System.Data; </br>
+using System.Drawing; </br>
+using System.Linq; </br>
+using System.Text; </br>
+using System.Threading.Tasks; </br>
+using System.Windows.Forms; </br> ***
 
 </br>
 
