@@ -28,7 +28,7 @@ Soruları 30 saniye içinde yapmadığınız takdirde karşımıza bu uyarı ekr
 * Projemi yaparken ***Windows Form*** yazılım dilini kullandım.</br>
 * Kodları yazabilmek için ***Microsoft Visual Studio*** uygulaması kullandım.</br>
 </br>
-1. **Kütüphaneler**</br>
+ **Kütüphaneler**</br>
 Öncelikle projemi yaparken kafamda tasarladığım bu pencere ekranı için bana gerekli olan data, int, çizim, yazı kutucukları, değişkenler, süre ve zaman gibi parametreleri için kullanılması gereken kütüphaneleri yazmakla işe koyuldum. </br>
 </br>
 
@@ -47,14 +47,16 @@ Bu kod parçacığı, Windows Forms uygulamasının C# dilindeki başlık (heade
 Bu using ifadeleri, ilgili namespace'lerdeki sınıfları doğrudan kullanmanıza olanak tanır ve kodunuzda daha kısa ve daha okunabilir bir sözdizimi sağlar. </br>
 </br>
 
-2. **Random Sayılar**</br>
+ **Random Sayılar**</br>
 Projemizde olan 4 işlemi yapabilmek için sayılara ihtiyacımız var. Bu sayıları uygulamamız bize verirken rastgele vermesi gerekir. Rastgele sayıları bize vermek için aşağıdaki kod satırını yazdım. </br>
 </br>
 ***Random randomizer = new Random();***</br>
+</br>
 Bu kod satırının ana mantığı; "Random" nesnesi olan "randomizer", rastgele sayılar oluşturabilmek için kullandım.</br>
 </br>
 
-3.Projede olan 4 temel işlemi (Toplama, Çıkarma, Çarpma ve Bölme) için sayıları bir önceki maddeden aldık. Ancak bu sayıların saklanıp verilerde durması gerekir ve bu yüzden her bir işlem için ayrı değişkenler atıyarak bunu sağlamış oldum. Kodlar aşağıdaki gibidir. </br>
+ **Sayıların Saklanması**</br>
+Projede olan 4 temel işlemi (Toplama, Çıkarma, Çarpma ve Bölme) için sayıları bir önceki maddeden aldık. Ancak bu sayıların saklanıp verilerde durması gerekir ve bu yüzden her bir işlem için ayrı değişkenler atıyarak bunu sağlamış oldum. Kodlar aşağıdaki gibidir. </br>
 </br>
 
 ***//Bu girişler, toplama sorunu için sayıları saklayacaktır.</br>
@@ -73,9 +75,10 @@ int multiplier;</br>
 int dividend;</br>
 int divisor;***</br>
 </br>
-4. Projemdeki oyunda süre olarak 30 saniye gibi bir kısıtlama var. Bu süre için ayrı br değişken atayıp kalan süreyi takip eden bir değer kullandım.</br>
+ **Kala Süreyi Takip Etme**</br>
+ Projemdeki oyunda süre olarak 30 saniye gibi bir kısıtlama var. Bu süre için ayrı br değişken atayıp kalan süreyi takip eden bir değer kullandım.</br>
 </br>
 ***// Bu int, kalan süreyi takip edecektir.</br>
 int timeLeft;***</br>
 </br>
-5. 
+
