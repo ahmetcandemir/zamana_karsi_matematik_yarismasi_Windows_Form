@@ -12,7 +12,7 @@ Matematik hayatımızın her yerinde kullanmış olduğumuz ve sürekli olarak k
 </br>
 
 ## Projenin Videosu 
-https://github.com/ahmetcandemir/zamana_karsi_matematik_yarismasi_Windows_Form/assets/103899051/22ed25eb-1b22-4594-86ef-f3623e287425
+https://github.com/ahmetcandemir/zamana_karsi_matematik_yarismasi_Windows_Form/assets/103899051/4718d142-8fc5-4fb2-9a11-a13ea9633d18
 </br>
 
 ## Projeden Görseller
