@@ -1,9 +1,9 @@
 # WINDOWS FORM İLE ZAMANA KARŞI MATEMATİK YARIŞMASI
 ## İçindekiler
  1.[Projenin Amacı](#Projenin-Amacı)</br>
- 2.[Projenin Videosu]()</br>
- 3.[Projeden Görseller]()</br>
- 4.[Projenin Yapım Aşamaları ve Kodlar]()</br>
+ 2.[Projenin Videosu](#Projenin-Videosu)</br>
+ 3.[Projeden Görseller](#Projeden-Görseller)</br>
+ 4.[Projenin Yapım Aşamaları ve Kodlar](#Projenin-Yapım-Aşamaları-ve-Kodlar)</br>
 </br>
 ## Projenin Amacı
 Matematik hayatımızın her yerinde kullanmış olduğumuz ve sürekli olarak karşımıza çıkan bir derstir. Bu dersi çocuklara ve matematiğe karşı ön yargısı olanlara öğretmek çok önemlidir. Bu projemdeki asıl amacım bir öğretmen gibi bu dersi öğretmekten çok bu öğrendikleri bilgileri pekiştirebilmesi için yapmış olduğum bir projedir. Projemden biraz bahsetmek istiyorum. Projemde matematikte olan temel 4 işlemi (Toplama, Çıkarma, Çarpma, Bölme) 2 farklı sayı kullanarak bir cevap bulunmasıdır. Çocukların pratikte hız kazanmaları için 30 saniye süre ile bu işlemleri yapmaları gerekmektedir. </br>
