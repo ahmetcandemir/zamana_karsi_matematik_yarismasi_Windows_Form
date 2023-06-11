@@ -14,7 +14,7 @@ https://github.com/ahmetcandemir/zamana_karsi_matematik_yarismasi_Windows_Form/a
 ## Projeden Görseller
 ### Görsel 1
 ![ProjeGörsel1](https://github.com/ahmetcandemir/zamana_karsi_matematik_yarismasi_Windows_Form/assets/103899051/4bd5b4c7-41b7-4740-8267-00fb7e02c7ee) </br>
-Yukarı da görmüş olduğunuz görsel projemin ana penceresidir. Sade ve kafa karışılığından uzak bir pencere tasarlayarak çocukların bu projeyi (kendilerince pratik yapmalarını sağlayan bu alıştırmayı) daha çok sevmesini sağlamak istememdedir. Toplama, çıkarma, çarpma ve bölme işlemlerini 2 farklı sayı ile işleme dahil ediyoruz. Start Game butonuna basarak 30 saniyelik işlem yapma süremiz başlamış oluyor. </br>
+Yukarı da görmüş olduğunuz görsel projemin ana penceresidir. Sade ve kafa karışılığından uzak bir pencere tasarlayarak çocukların bu projeyi (kendilerince pratik yapmalarını sağlayan bu alıştırmayı) daha çok sevmesini sağlamak istememdedir. Toplama, çıkarma, çarpma ve bölme işlemlerini 2 farklı sayı ile işleme dahil ediyoruz. Start Game butonuna basarak 30 saniyelik işlem yapma süremiz başlamış oluyor. Çocukların rahat bir şekilde kullanabilmesi için fazla tuş kalabalığından uzak tasarladım.</br>
 </br>
 ### Görsel 2 
 ![ProjeGörsel2](https://github.com/ahmetcandemir/zamana_karsi_matematik_yarismasi_Windows_Form/assets/103899051/d17e8312-5d8d-4e6e-8da9-d00ec9ee746f) </br>
@@ -25,4 +25,23 @@ Tüm sorulara doğru yanıtlar verildiği zaman karşımıza bu şekilde bu uyar
 Soruları 30 saniye içinde yapmadığınız takdirde karşımıza bu uyarı ekranı çıkacaktır. Sadece 30 saniye sürede yapmadığımız için değil aynı zamanda tüm sorulara doğru cevap verene kadar süre akmaya devam eder ve süre bittiğinde gene karşılaşacağımız bilgi kutucuğu bu şekildedir. </br>
 </br>
 ## Projenin Yapım Aşamaları ve Kodlar
-Projemi yaparken ***Windows Form*** yazılım dilini kullandım. Öncelikle bu yazılım dilinden biraz bahsetmek isterim. </br>
+* Projemi yaparken ***Windows Form*** yazılım dilini kullandım.</br>
+* Kodları yazabilmek için ***Microsoft Visual Studio*** uygulaması kullandım.</br>
+</br>
+Öncelikle projemi yaparken kafamda tasarladığım bu pencere ekranı için bana gerekli olan data, int, çizim, yazı kutucukları, değişkenler, süre ve zaman gibi parametreleri için kullanılması gerekn kütüphaneleri yazmakla işe koyuldum. </br>
+```
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+```
+</br>
+* Bu kod parçacığı, Windows Forms uygulamasının C# dilindeki başlık (header) dosyalarını içerir. İlgili namespace'leri ve temel sınıfları içe aktarmak için kullanılır. </br>
+* Bu using ifadeleri, ilgili namespace'lerdeki sınıfları doğrudan kullanmanıza olanak tanır ve kodunuzda daha kısa ve daha okunabilir bir sözdizimi sağlar. </br>
+
