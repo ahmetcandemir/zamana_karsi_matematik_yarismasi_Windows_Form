@@ -28,7 +28,7 @@ Soruları 30 saniye içinde yapmadığınız takdirde karşımıza bu uyarı ekr
 * Projemi yaparken ***Windows Form*** yazılım dilini kullandım.</br>
 * Kodları yazabilmek için ***Microsoft Visual Studio*** uygulaması kullandım.</br>
 </br>
-1.**Kütüphaneler**</br>
+1. **Kütüphaneler**</br>
 Öncelikle projemi yaparken kafamda tasarladığım bu pencere ekranı için bana gerekli olan data, int, çizim, yazı kutucukları, değişkenler, süre ve zaman gibi parametreleri için kullanılması gereken kütüphaneleri yazmakla işe koyuldum. </br>
 </br>
 
@@ -47,7 +47,7 @@ Bu kod parçacığı, Windows Forms uygulamasının C# dilindeki başlık (heade
 Bu using ifadeleri, ilgili namespace'lerdeki sınıfları doğrudan kullanmanıza olanak tanır ve kodunuzda daha kısa ve daha okunabilir bir sözdizimi sağlar. </br>
 </br>
 
-2.**Random Sayılar**</br>
+2. **Random Sayılar**</br>
 Projemizde olan 4 işlemi yapabilmek için sayılara ihtiyacımız var. Bu sayıları uygulamamız bize verirken rastgele vermesi gerekir. Rastgele sayıları bize vermek için aşağıdaki kod satırını yazdım. </br>
 </br>
 ***Random randomizer = new Random();***</br>
