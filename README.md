@@ -18,7 +18,7 @@ https://github.com/ahmetcandemir/zamana_karsi_matematik_yarismasi_Windows_Form/a
 ## Projeden Görseller
 ### Görsel 1
 ![ProjeGörsel1](https://github.com/ahmetcandemir/zamana_karsi_matematik_yarismasi_Windows_Form/assets/103899051/4bd5b4c7-41b7-4740-8267-00fb7e02c7ee) </br>
-Yukarı da görmüş olduğunuz görsel projemin ana penceresidir. Sade ve kafa karışılığından uzak bir pencere tasarlayarak çocukların bu projeyi (kendilerince pratik yapmalarını sağlayan bu alıştırmayı) daha çok sevmesini sağlamak istememdedir. Toplama, çıkarma, çarpma ve bölme işlemlerini 2 farklı sayı ile işleme dahil ediyoruz. Start Game butonuna basarak 30 saniyelik işlem yapma süremiz başlamış oluyor. Çocukların rahat bir şekilde kullanabilmesi için fazla tuş kalabalığından uzak tasarladım.</br>
+Yukarıda görmüş olduğunuz görsel projemin ana penceresidir. Sade ve kafa karışıklığından uzak bir pencere tasarlayarak çocukların bu projeyi (kendilerince pratik yapmalarını sağlayan bu alıştırmayı) daha çok sevmesini sağlamak istedim. Toplama, çıkarma, çarpma ve bölme işlemlerini 2 farklı sayı ile işleme dahil ediyoruz. Start Game butonuna basarak 30 saniyelik işlem yapma süremiz başlamış oluyor. Çocukların rahat bir şekilde kullanabilmesi için fazla tuş kalabalığından uzak tasarladım.</br>
 </br>
 ### Görsel 2 
 ![ProjeGörsel2](https://github.com/ahmetcandemir/zamana_karsi_matematik_yarismasi_Windows_Form/assets/103899051/d17e8312-5d8d-4e6e-8da9-d00ec9ee746f) </br>
