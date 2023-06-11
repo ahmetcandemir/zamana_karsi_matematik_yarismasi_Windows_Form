@@ -46,13 +46,13 @@ Bu kod parçacığı, Windows Forms uygulamasının C# dilindeki başlık (heade
 Bu using ifadeleri, ilgili namespace'lerdeki sınıfları doğrudan kullanmanıza olanak tanır ve kodunuzda daha kısa ve daha okunabilir bir sözdizimi sağlar. </br>
 </br>
 
-2. Projemizde olan 4 işlemi yapabilmek için sayılara ihtiyacımız var. Bu sayıları uygulamamız bize verirken rastgele vermesi gerekir. Rastgele sayıları bize vermek için aşağıdaki kod satırını yazdım. </br>
+2.Projemizde olan 4 işlemi yapabilmek için sayılara ihtiyacımız var. Bu sayıları uygulamamız bize verirken rastgele vermesi gerekir. Rastgele sayıları bize vermek için aşağıdaki kod satırını yazdım. </br>
 </br>
-***Random randomizer = new Random();*** </br>
+***Random randomizer = new Random(); ***</br>
 Bu kod satırının ana mantığı; "Random" nesnesi olan "randomizer", rastgele sayılar oluşturabilmek için kullandım.</br>
 </br>
 
-3. Projede olan 4 temel işlemi (Toplama, Çıkarma, Çarpma ve Bölme) için sayıları bir önceki maddeden aldık. Ancak bu sayıların saklanıp verilerde durması gerekir ve bu yüzden her bir işlem için ayrı değişkenler atıyarak bunu sağlamış oldum. Kodlar aşağıdaki gibidir. </br>
+3.Projede olan 4 temel işlemi (Toplama, Çıkarma, Çarpma ve Bölme) için sayıları bir önceki maddeden aldık. Ancak bu sayıların saklanıp verilerde durması gerekir ve bu yüzden her bir işlem için ayrı değişkenler atıyarak bunu sağlamış oldum. Kodlar aşağıdaki gibidir. </br>
 </br>
 
 ***//Bu girişler, toplama sorunu için sayıları saklayacaktır.</br>
