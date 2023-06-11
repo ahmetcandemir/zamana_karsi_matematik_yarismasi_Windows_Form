@@ -4,13 +4,17 @@
  2.[Projenin Videosu](#Projenin-Videosu)</br>
  3.[Projeden Görseller](#Projeden-Görseller)</br>
  4.[Projenin Yapım Aşamaları ve Kodlar](#Projenin-Yapım-Aşamaları-ve-Kodlar)</br>
+ 5.[Sonuç](#Sonuç)</br>
 </br>
+
 ## Projenin Amacı
 Matematik hayatımızın her yerinde kullanmış olduğumuz ve sürekli olarak karşımıza çıkan bir derstir. Bu dersi çocuklara ve matematiğe karşı ön yargısı olanlara öğretmek çok önemlidir. Bu projemdeki asıl amacım bir öğretmen gibi bu dersi öğretmekten çok bu öğrendikleri bilgileri pekiştirebilmesi için yapmış olduğum bir projedir. Projemden biraz bahsetmek istiyorum. Projemde matematikte olan temel 4 işlemi (Toplama, Çıkarma, Çarpma, Bölme) 2 farklı sayı kullanarak bir cevap bulunmasıdır. Çocukların pratikte hız kazanmaları için 30 saniye süre ile bu işlemleri yapmaları gerekmektedir. </br>
 </br>
+
 ## Projenin Videosu 
 https://github.com/ahmetcandemir/zamana_karsi_matematik_yarismasi_Windows_Form/assets/103899051/22ed25eb-1b22-4594-86ef-f3623e287425
 </br>
+
 ## Projeden Görseller
 ### Görsel 1
 ![ProjeGörsel1](https://github.com/ahmetcandemir/zamana_karsi_matematik_yarismasi_Windows_Form/assets/103899051/4bd5b4c7-41b7-4740-8267-00fb7e02c7ee) </br>
