@@ -29,7 +29,7 @@ Soruları 30 saniye içinde yapmadığınız takdirde karşımıza bu uyarı ekr
 * Kodları yazabilmek için ***Microsoft Visual Studio*** uygulaması kullandım.</br>
 </br>
 
-### Kütüphaneler 
+1. ### Kütüphaneler 
 Öncelikle projemi yaparken kafamda tasarladığım bu pencere ekranı için bana gerekli olan data, int, çizim, yazı kutucukları, değişkenler, süre ve zaman gibi parametreleri için kullanılması gereken kütüphaneleri yazmakla işe koyuldum. </br>
 </br>
 ***using System; </br>
@@ -46,7 +46,7 @@ Bu kod parçacığı, Windows Forms uygulamasının C# dilindeki başlık (heade
 Bu using ifadeleri, ilgili namespace'lerdeki sınıfları doğrudan kullanmanıza olanak tanır ve kodunuzda daha kısa ve daha okunabilir bir sözdizimi sağlar. </br>
 </br>
 
-1. ### Random Sayılar
+2. ### Random Sayılar
 Projemizde olan 4 işlemi yapabilmek için sayılara ihtiyacımız var. Bu sayıları uygulamamız bize verirken rastgele vermesi gerekir. Rastgele sayıları bize vermek için aşağıdaki kod satırını yazdım. </br>
 </br>
 ***Random randomizer = new Random();***</br>
@@ -54,7 +54,7 @@ Projemizde olan 4 işlemi yapabilmek için sayılara ihtiyacımız var. Bu sayı
 Bu kod satırının ana mantığı; "Random" nesnesi olan "randomizer", rastgele sayılar oluşturabilmek için kullandım.</br>
 </br>
 
-### Sayıların Saklanması
+3. ### Sayıların Saklanması
 Projede olan 4 temel işlei (Toplama, Çıkarma, Çarpma ve Bölme) için sayıları bir önceki maddeden aldık. Ancak bu sayıların saklanıp verilerde durması gerekir ve bu yüzden her bir işlem için ayrı değişkenler atıyarak bunu sağlamış oldum. Kodlar aşağıdaki gibidir. </br>
 </br>
 ***//Bu girişler, toplama sorunu için sayıları saklayacaktır.</br>
@@ -74,14 +74,14 @@ int dividend;</br>
 int divisor;***</br>
 </br>
 
-### Kala Süreyi Takip Etme
+4. ### Kala Süreyi Takip Etme
 Projemdeki oyunda süre olarak 30 saniye gibi bir kısıtlama var. Bu süre için ayrı br değişken atayıp kalan süreyi takip eden bir değer kullandım.</br>
 </br>
 ***// Bu int, kalan süreyi takip edecektir.</br>
 int timeLeft;***</br>
 </br>
 
-### Sınavı Başlatır 
+5. ### Sınavı Başlatır 
 Random sayıları üretmek, bu ürettiğimiz sayıların saklamak ve süre değişkeninden sonra artık tek yapmamız gerek iş sınavı başlatan bir değer olması gerekir. Sınavı başlattıktan sorna bu üretilen sayıları ilgili ola 2 boş kutucuğa yerleştirilmesi için yapmış olduğum değişkeleri ve bu değişkenlerin açıklamaları aşağıdaki kod satırı gibidir. </br>
 </br>
 ***public void StartTheQuiz()</br>
@@ -125,7 +125,7 @@ Random sayıları üretmek, bu ürettiğimiz sayıların saklamak ve süre deği
 "StartTheQuiz" metodu, sınavı başlatır ve soruları doldurur. Her bir problem için rastgele sayılar oluşturur ve etiketleri günceller.
 </br>
 
-### Cevapları Kontrol Etme
+6. ### Cevapları Kontrol Etme
 Kullanıcının vermiş olduğu cevapların doğru mu yanlış olduğunu kontrol eden bir değişken ataması yaparak kullanıcıya yönelik bir bilgi aktarmak istedim. Kullanıcının cevapları doğru ise "true", eğer yanlış ise "false" gönderir. </br>
 </br>
 ***private bool CheckTheAnswer()</br>
@@ -138,6 +138,47 @@ Kullanıcının vermiş olduğu cevapların doğru mu yanlış olduğunu kontrol
             else</br>
                 return false;</br>
                 </br>
-        }</br>
+        }***</br>
+        </br>
+        
+ 7. ### Kullanıcıya Mesaj Gönderme
+ Verilmiş olan cevaplar doğru ise doğru olduğuna dair "Tebrikler" mesajı; eğer yanlış ise yanlış olduğuna dair "Üzgünüz" mesajı yollayarak kullanıcıyı bilgilendirmek istedim.</br>
+ </br>
+ ***private void timer1_Tick(object sender, EventArgs e)</br>
+        {</br>
+            if (CheckTheAnswer())</br>
+            {</br>
+                // Kullanıcı cevabı doğru anladıysa zamanlayıcıyı durdurun ve bir Mesaj Kutusu gösterin.</br>
+                timer1.Stop();</br>
+                MessageBox.Show("Tüm sorulara doğru cevap verdiniz",</br>
+                                "Tebrikler :)");</br>
+                StartGameButton.Enabled = true;</br>
+            }</br>
+            else if (timeLeft > 0)</br>
+            {</br>
+                timeLeft = timeLeft - 1;</br>
+                Timelable.Text = timeLeft + " saniye";</br>
+            }</br>
+            </br>
+            else</br>
+            {</br>
+                // Kullanıcının süresi dolduysa zamanlayıcıyı durdurun,</br>
+                // bir Mesaj Kutusu gösterin ve yanıtları doldurun.</br>
+                timer1.Stop();</br>
+                Timelable.Text = "Süre doldu!";</br>
+                MessageBox.Show("Belirtilen sürede yapamadın", "Üzgünüm :(");</br>
+                sum.Value = addend1 + addend2;</br>
+                difference.Value = minuend - subtrahend;</br>
+                product.Value = multiplicand * multiplier;</br>
+                quotient.Value = dividend / divisor;</br>
+                StartGameButton.Enabled = true;</br>
+            }</br>
+        }***</br>
         </br>
  
+## Sonuç
+Genel anlamda projem bu şekildedir. Elimden geldiğince basit ama etkili bir proje yapmak istedim İlgi odağım daha çok çocuklar oldu çünkü onların matematikle olan bağının güçlenmesi gerektiğini düşünen biriyim.</br>
+Bitirişimi ünlü bir fizik bilimcinin sözü ile bitirmek isterim </br>
+</br>
+*İnsanlar sayılar gibidir, o insanın değeri ise o sayının içinde bulunduğu sayı ile ölçülür*.</br>
+Isaac Newton
