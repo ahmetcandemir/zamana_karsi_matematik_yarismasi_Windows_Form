@@ -181,7 +181,7 @@ Kullanıcının vermiş olduğu cevapların doğru mu yanlış olduğunu kontrol
         </br>
  
 ## Sonuç
-Genel anlamda projem bu şekildedir. Elimden geldiğince basit ama etkili bir proje yapmak istedim İlgi odağım daha çok çocuklar oldu çünkü onların matematikle olan bağının güçlenmesi gerektiğini düşünen biriyim.</br>
+Genel anlamda projem bu şekildedir. Elimden geldiğince basit ama etkili bir proje yapmak istedim. İlgi odağım daha çok çocuklar oldu çünkü onların matematikle olan bağının güçlenmesi gerektiğini düşünen biriyim.</br>
 Bitirişimi ünlü bir fizik bilimcinin sözü ile bitirmek isterim </br>
 </br>
 *İnsanlar sayılar gibidir, o insanın değeri ise o sayının içinde bulunduğu sayı ile ölçülür*.</br>
