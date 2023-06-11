@@ -46,7 +46,7 @@ Bu kod parçacığı, Windows Forms uygulamasının C# dilindeki başlık (heade
 Bu using ifadeleri, ilgili namespace'lerdeki sınıfları doğrudan kullanmanıza olanak tanır ve kodunuzda daha kısa ve daha okunabilir bir sözdizimi sağlar. </br>
 </br>
 
- ### Random Sayılar
+1. ### Random Sayılar
 Projemizde olan 4 işlemi yapabilmek için sayılara ihtiyacımız var. Bu sayıları uygulamamız bize verirken rastgele vermesi gerekir. Rastgele sayıları bize vermek için aşağıdaki kod satırını yazdım. </br>
 </br>
 ***Random randomizer = new Random();***</br>
