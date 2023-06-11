@@ -29,17 +29,16 @@ Soruları 30 saniye içinde yapmadığınız takdirde karşımıza bu uyarı ekr
 * Kodları yazabilmek için ***Microsoft Visual Studio*** uygulaması kullandım.</br>
 </br>
 Öncelikle projemi yaparken kafamda tasarladığım bu pencere ekranı için bana gerekli olan data, int, çizim, yazı kutucukları, değişkenler, süre ve zaman gibi parametreleri için kullanılması gerekn kütüphaneleri yazmakla işe koyuldum. </br>
-```
-using System; </br>
-using System.Collections.Generic; </br>
-using System.ComponentModel; </br>
-using System.Data; </br>
-using System.Drawing; </br>
-using System.Linq; </br>
-using System.Text; </br>
-using System.Threading.Tasks; </br>
-using System.Windows.Forms; </br>
-```
+</br>
+> using System; </br>
+> using System.Collections.Generic; </br>
+> using System.ComponentModel; </br>
+> using System.Data; </br>
+> using System.Drawing; </br>
+> using System.Linq; </br>
+> using System.Text; </br>
+> using System.Threading.Tasks; </br>
+> using System.Windows.Forms; </br>
 </br>
 
 * Bu kod parçacığı, Windows Forms uygulamasının C# dilindeki başlık (header) dosyalarını içerir. İlgili namespace'leri ve temel sınıfları içe aktarmak için kullanılır. </br>
