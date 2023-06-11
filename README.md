@@ -29,7 +29,7 @@ Soruları 30 saniye içinde yapmadığınız takdirde karşımıza bu uyarı ekr
 * Kodları yazabilmek için ***Microsoft Visual Studio*** uygulaması kullandım.</br>
 </br>
 
- ### Kütüphaneler 
+### Kütüphaneler 
 Öncelikle projemi yaparken kafamda tasarladığım bu pencere ekranı için bana gerekli olan data, int, çizim, yazı kutucukları, değişkenler, süre ve zaman gibi parametreleri için kullanılması gereken kütüphaneleri yazmakla işe koyuldum. </br>
 </br>
 ***using System; </br>
@@ -54,8 +54,8 @@ Projemizde olan 4 işlemi yapabilmek için sayılara ihtiyacımız var. Bu sayı
 Bu kod satırının ana mantığı; "Random" nesnesi olan "randomizer", rastgele sayılar oluşturabilmek için kullandım.</br>
 </br>
 
- ### Sayıların Saklanması
-Projede olan 4 temel işlemi (Toplama, Çıkarma, Çarpma ve Bölme) için sayıları bir önceki maddeden aldık. Ancak bu sayıların saklanıp verilerde durması gerekir ve bu yüzden her bir işlem için ayrı değişkenler atıyarak bunu sağlamış oldum. Kodlar aşağıdaki gibidir. </br>
+### Sayıların Saklanması
+Projede olan 4 temel işlei (Toplama, Çıkarma, Çarpma ve Bölme) için sayıları bir önceki maddeden aldık. Ancak bu sayıların saklanıp verilerde durması gerekir ve bu yüzden her bir işlem için ayrı değişkenler atıyarak bunu sağlamış oldum. Kodlar aşağıdaki gibidir. </br>
 </br>
 ***//Bu girişler, toplama sorunu için sayıları saklayacaktır.</br>
 int addend1;</br>
@@ -74,11 +74,70 @@ int dividend;</br>
 int divisor;***</br>
 </br>
 
- ### Kala Süreyi Takip Etme
- Projemdeki oyunda süre olarak 30 saniye gibi bir kısıtlama var. Bu süre için ayrı br değişken atayıp kalan süreyi takip eden bir değer kullandım.</br>
+### Kala Süreyi Takip Etme
+Projemdeki oyunda süre olarak 30 saniye gibi bir kısıtlama var. Bu süre için ayrı br değişken atayıp kalan süreyi takip eden bir değer kullandım.</br>
 </br>
 ***// Bu int, kalan süreyi takip edecektir.</br>
 int timeLeft;***</br>
 </br>
 
 ### Sınavı Başlatır 
+Random sayıları üretmek, bu ürettiğimiz sayıların saklamak ve süre değişkeninden sonra artık tek yapmamız gerek iş sınavı başlatan bir değer olması gerekir. Sınavı başlattıktan sorna bu üretilen sayıları ilgili ola 2 boş kutucuğa yerleştirilmesi için yapmış olduğum değişkeleri ve bu değişkenlerin açıklamaları aşağıdaki kod satırı gibidir. </br>
+</br>
+***public void StartTheQuiz()</br>
+        {</br>
+        </br>
+            // Toplama problemini doldurun</br>
+            addend1 = randomizer.Next(51);</br>
+            addend2 = randomizer.Next(51);</br>
+            LeftPluslabel.Text = addend1.ToString();</br>
+            RightPluslabel.Text = addend2.ToString();</br>
+            sum.Value = 0;</br>
+            </br>
+            // Çıkarma problemini doldurun.</br>
+            minuend = randomizer.Next(1, 101);</br>
+            subtrahend = randomizer.Next(1, minuend);</br>
+            LeftMinuslabel.Text = minuend.ToString();</br>
+            RightMinuslabel.Text = subtrahend.ToString();</br>
+            difference.Value = 0;</br>
+            </br>
+            // Çarpma problemini doldurun.</br>
+            multiplicand = randomizer.Next(2, 11);</br>
+            multiplier = randomizer.Next(2, 11);</br>
+            LeftMultilabel.Text = multiplicand.ToString();</br>
+            RightMultilabel.Text = multiplier.ToString();</br>
+            product.Value = 0;</br>
+            </br>
+            // Bölme problemini doldurunuz.</br>
+            divisor = randomizer.Next(2, 11);</br>
+            int temporaryQuotient = randomizer.Next(2, 11);</br>
+            dividend = divisor * temporaryQuotient;</br>
+            LeftDividelabel.Text = dividend.ToString();</br>
+            RightDividelable.Text = divisor.ToString();</br>
+            quotient.Value = 0;</br>
+            </br>
+            // Zamanlayıcıyı başlatın.</br>
+            timeLeft = 30;</br>
+            Timelable.Text = "30 saniye";</br>
+            timer1.Start();</br>
+        }***</br>
+        </br>
+"StartTheQuiz" metodu, sınavı başlatır ve soruları doldurur. Her bir problem için rastgele sayılar oluşturur ve etiketleri günceller.
+</br>
+
+### Cevapları Kontrol Etme
+Kullanıcının vermiş olduğu cevapların doğru mu yanlış olduğunu kontrol eden bir değişken ataması yaparak kullanıcıya yönelik bir bilgi aktarmak istedim. Kullanıcının cevapları doğru ise "true", eğer yanlış ise "false" gönderir. </br>
+</br>
+***private bool CheckTheAnswer()</br>
+        {</br>
+            if ((addend1 + addend2 == sum.Value)</br>
+                && (minuend - subtrahend == difference.Value)</br>
+                && (multiplicand * multiplier == product.Value)</br>
+                && (dividend / divisor == quotient.Value))</br>
+                return true;</br>
+            else</br>
+                return false;</br>
+                </br>
+        }</br>
+        </br>
+ 
